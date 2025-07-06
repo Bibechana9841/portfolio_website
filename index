@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibechana Khadka | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bibechana Khadka</h1>
+    <p>Geomatics Engineer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+      <a href="spatialTool.html">Spatial Tools</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="profile-section">
+      <img src="profile.jpg" alt="Bibechana" class="profile-pic">
+      <p class="caption">I believe optimism is contagious.</p>
+    </div>
+    <p>Hello, I am Bibechana Khadka. I'm a fourth-year undergraduate student at Kathmandu University. I'm a proactive learner who enjoys exploring new ideas and improving my skills. I'm interested in learning both technical and creative aspects of my field. I like working on projects, solving problems, and being part of a team.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="rectangle-box"><span>3D Modelling of Kathmandu University Multipurpose Hall</span></div>
+    <div class="rectangle-box"><span>Soil Erosion Estimation of Kavre Using RUSLE</span></div>
+    <div class="rectangle-box"><span>Area Converter using GUI in Java Programming</span></div>
+    <div class="rectangle-box"><span><a href="spatialTool.html">Spatial Tools Web Application</a></span></div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="rectangle-box"><span>C Programming</span></div>
+    <div class="rectangle-box"><span>C++</span></div>
+    <div class="rectangle-box"><span>Java</span></div>
+    <div class="rectangle-box"><span>HTML, CSS, JavaScript</span></div>
+    <div class="rectangle-box"><span>GIS & Remote Sensing</span></div>
+    <div class="rectangle-box"><span>Leaflet.js</span></div>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies & Interests</h2>
+    <div class="rectangle-box"><span>Photography</span></div>
+    <div class="rectangle-box"><span>Sketching</span></div>
+    <div class="rectangle-box"><span>Reading novels</span></div>
+    <div class="rectangle-box"><span>Exploring nature and trekking</span></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="social-links">
+      <p>Connect with me on:</p>
+      <a href="mailto:bibechanakhadka16@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/bibechana-khadka-675952357/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bibechana Khadka. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
